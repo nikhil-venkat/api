@@ -2,10 +2,8 @@
   "name": "api",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
   "scripts": {
-    "dev": "rimraf dist && parcel client/index.html",
-    "build": "rimraf dist && netlify-lambda install && parcel build client/index.html"
+    "build": "rimraf dist && netlify-lambda install"
   },
   "keywords": [],
   "author": "",
@@ -15,9 +13,6 @@
     "rimraf": "3"
   },
   "dependencies": {
-    "@okta/okta-signin-widget": "4.2",
-    "axios": "0.19",
-    "netlify-lambda": "1.6",
-    "parcel": "1.12"
+    "netlify-lambda": "1.6"
   }
 }
