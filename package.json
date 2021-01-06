@@ -16,7 +16,7 @@
   },
   "dependencies": {
     "@okta/okta-signin-widget": "4.2",
-    "axios": "0.19",
+    "axios": "0.21",
     "netlify-lambda": "1.6",
     "parcel": "1.12"
   }
